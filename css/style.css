@@ -1,0 +1,76 @@
+/************************************************/
+/*				Estrutura Padrão				*/
+/************************************************/
+/*HARD RESET*/
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;  font-size: 16px; border: none;}
+a {text-decoration: none;}
+ul {list-style-type: none;}
+img {max-width: 100%;}
+/*CABEÇALHO*/
+header.cabecalho {width: 100%; height: 80px; background: #222222; display: flex; justify-content: center; align-items: center;}
+header.cabecalho a h1 {color: #fff; font-size: 26px;}
+/*FOOTER*/
+footer.rodape {width: 100%; height: 80px; display: flex; justify-content: center; align-items: center;}
+footer.rodape h3 {font-size: 16px;}
+/************************************************/
+/*				Página Incial					*/
+/************************************************/
+/*PRINCIPAL*/
+section.main {width:100%; height: 150px;}
+section.main nav.menu {width: 100%; height: 100px; margin-top: 40px;}
+section.main nav.menu ul {margin: 0 auto; width: 25%; height: 100px; display: flex; justify-content: space-between; align-items: center;}
+section.main nav.menu ul a {width: 45%; height: 120px; border: 1px solid gray; color: #222222;}
+section.main nav.menu ul a:hover{cursor: pointer; background: #428BCA; color: white;}
+section.main nav.menu ul a li { font-size: 14px; width: 100%; height: 100%; display: flex; flex-flow: column wrap; justify-content: center; align-items: center;}
+section.main nav.menu ul a li i {font-size: 280%; margin-bottom: 4%;}
+/************************************************/
+/*				Novo Cliente					*/
+/************************************************/
+/*PRINCIPAL*/
+section.cadastrar {width:100%; height: 450px;}
+/*Formulário - Corpo Geral*/
+section.cadastrar form {width: 60%; padding-top: 60px; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center;}
+section.cadastrar form div {width: 100%;}
+section.cadastrar form div.inp {display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center;}
+section.cadastrar form div legend {font-size: 22px; margin-bottom: 20px; align-self: flex-start; margin-left: 5%;}
+section.cadastrar form div.inp input {width: 90%; height: 30px; border: 1px solid gray; margin-top: 10px; padding: 2%;}
+section.cadastrar form div.buttons {width: 100%; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-end; align-items: center;}
+section.cadastrar form div input.btn {border: 1px solid gray; width: 20%; height: 35px; margin-top: 20px; margin-right: 5%; color: #fff;}
+section.cadastrar form div a:hover {cursor: pointer; font-size: 18px; width: 22%; height: 40px;}
+section.cadastrar form div a {display: flex; justify-content: center; align-items: center; border: 1px solid gray; width: 20%; height: 35px; margin-top: 20px; margin-right: 5%; color: #fff;}
+section.cadastrar form div input.btn:hover {cursor: pointer; font-size: 18px; width: 22%; height: 40px;}
+section.cadastrar form div input.btn-cadastrar {background: #5DB75D; margin-right: 1%;}
+section.cadastrar form div a.btn-cancelar {background: #DA5252;}
+/************************************************/
+/*				    Clientes					*/
+/************************************************/
+/*Corpo Principal*/
+section.clientes {width: 100%; padding-top: 40px; display: flex; flex-flow: column wrap; justify-content: center; align-items: center;}
+/*Titulo*/
+section.clientes article.cabecalho h2 {font-size: 25px;}
+/*Corpo do cabeçalho do section*/
+section.clientes article.cabecalho {width: 90%; display: flex; justify-content: space-between; margin-bottom: 40px;}
+/**/
+section.clientes article.cabecalho div.menuzin {width: 30%; display: flex; justify-content: space-between; align-items: center;}
+section.clientes article.cabecalho div.menuzin a {background: #428BCA; color: #fff; width: 48%; height: 35px; font-size: 18px; display: flex; justify-content: center; align-items: center;}
+section.clientes article.cabecalho div.menuzin a:nth-child(2){background: #fff; border: 1px solid #CCCCCC; color: #000;/*#DBDBDB;*/ }
+section.clientes article.cabecalho div.menuzin a i {margin-left: 2%;}
+/**/
+section.clientes article.principal {width: 90%; height: 100%;}
+section.clientes article.principal table {width: 100%;}
+section.clientes article.principal table thead tr th {width: 20%; text-align: left;}
+section.clientes article.principal table thead tr th:nth-child(3){width: 10%;}
+section.clientes article.principal table thead tr th:nth-child(4){width: 10%;}
+section.clientes article.principal table tbody tr td {width: 20%;}
+section.clientes article.principal table tbody tr td:nth-child(3){width: 10%;}
+section.clientes article.principal table tbody tr td:nth-child(4){width: 10%;}
+section.clientes article.principal table tbody tr td:nth-child(5) form {width: 100%; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between;}
+section.clientes article.principal table tbody tr td:nth-child(5) form button {padding: 2%; flex: 1; margin-left: 1%;}
+section.clientes article.principal table tbody tr td:nth-child(5) form button {font-size: 12px; text-align: center; }
+
+section.clientes article.principal table tbody tr td:nth-child(5) form button:nth-child(1){background: #5CB85C; color: #fff;}
+section.clientes article.principal table tbody tr td:nth-child(5) form button:nth-child(2){background: #F0AD4E; color: #fff;}
+section.clientes article.principal table tbody tr td:nth-child(5) form button:nth-child(3){background: #D9534F; color: #fff;}
+/*Sucess -> #5CB85C*/
+/*Laranjinha do sucesso -> #F0AD4E*/
+/*Vermelho da derrota -> #D9534F*/
