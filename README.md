@@ -19,12 +19,12 @@ CRUD Básico de clientes (nome, email, idade e status) usando PHP Procedural com
 ## Preview do Projeto
 
 <p align="center">
-  <img src="https://github.com/raissaqueiroz/sistemacrud/blob/master/screenshots/inicio.png" width=400 height=200/>
-  <img src="https://github.com/raissaqueiroz/sistemacrud/blob/master/screenshots/listagem.png" width=400 height=200/>
+  <img src="https://github.com/raissaqueiroz/sistemacrud/blob/master/screnshoots/inicio.png" width=400 height=200/>
+  <img src="https://github.com/raissaqueiroz/sistemacrud/blob/master/screnshoots/listar.png" width=400 height=200/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/raissaqueiroz/sistemacrud/blob/master/screenshots/cadastrar.png" width=400 height=200/>
+  <img src="https://github.com/raissaqueiroz/sistemacrud/blob/master/screnshoots/cadastrar.png" width=400 height=200/>
 </p>
 
 ## Guia Rápido de Instalação
