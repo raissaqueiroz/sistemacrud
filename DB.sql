@@ -15,5 +15,3 @@ CREATE TABLE IF NOT EXISTS sc_cliente(
 
 INSERT INTO SC_CLIENTE (nome, email, idade, status) VALUES ("Raissa", "rqt@email.com", "20", "1");
 INSERT INTO SC_CLIENTE (nome, email, idade, status) VALUES ("Luana", "luana@email.com", "18", "1");
-
-SELECT * FROM sc_CLIENTE;
